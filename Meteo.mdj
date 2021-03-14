@@ -1,0 +1,3271 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Meteo",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF2EQtgJ6iZ2zE=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Meteo",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAF2EQthX6rn5Ak=",
+					"_parent": {
+						"$ref": "AAAAAAF2EQtgJ6iZ2zE="
+					},
+					"name": "Class diagram",
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF2EQthX6roRIo=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQthX6rn5Ak="
+							},
+							"model": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF2EQthX6rp/Qw=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthX6roRIo="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgVKiaRn8="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthX6rqbgE=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rp/Qw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -3.25146484375,
+											"top": -8,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthX6rrWDQ=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rp/Qw="
+											},
+											"font": "Arial;13;1",
+											"left": 205,
+											"top": 23,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "CentralinaMeteo"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthX6rshfo=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rp/Qw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -3.25146484375,
+											"top": -8,
+											"width": 114.13720703125,
+											"height": 13,
+											"text": "(from Meteo)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthX6rtYTU=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rp/Qw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": -3.25146484375,
+											"top": -8,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 200,
+									"top": 16,
+									"width": 594.96826171875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF2EQthX6rqbgE="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF2EQthX6rrWDQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF2EQthX6rshfo="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF2EQthX6rtYTU="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF2EQthX6rutDU=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthX6roRIo="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgVKiaRn8="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthgqvMGQM=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rutDU="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdKj7S9g="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 46,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "#ENTE_PROPRIETARIO: String = \"ARPANP - Newton-Pertini\" {readOnly}",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthg6vP2HM=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rutDU="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdKj8YFI="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 61,
+											"width": 584.96826171875,
+											"height": 13,
+											"underline": true,
+											"text": "#numeroCentraline: int = 0",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthg6vSsFo=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rutDU="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdKj90Ks="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 76,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "#id: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthg6vVlGw=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rutDU="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdKj+4aw="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 91,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "#velocitaVento: float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthg6vYmMo=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rutDU="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdKj/wg0="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 106,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "#quantitaPioggia: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthhKvb/1A=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rutDU="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdKkAYOc="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 121,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "#temperatura: float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthhKveCYA=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rutDU="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdKkB7I4="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 136,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "#sogliaVento: float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthhKvhfaE=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rutDU="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdKkC6hs="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 151,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "#sogliaPioggia: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthhavk6iI=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rutDU="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdakD2fE="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 166,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "#sogliaTemperatura: float",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 200,
+									"top": 41,
+									"width": 594.96826171875,
+									"height": 143
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF2EQthX6rvhYc=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthX6roRIo="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgVKiaRn8="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthhavn3h0=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVaibsrE="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 189,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "«constructor»+CentralinaMeteo(id: String, velocitaVento: float, quantitaPioggia: int, temperatura: float)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthhqvq0wA=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVqigu6I="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 204,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "«constructor»+CentralinaMeteo(centralinaMeteo: CentralinaMeteo)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthhqvtKZk=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVqii6JQ="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 219,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "«constructor»+CentralinaMeteo()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthhqvw6+g=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVqijY6o="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 234,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+setId(id: String): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthhqvzE84=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVqimpHQ="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 249,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+getId(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthh6v2nIo=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVqioPyY="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 264,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+setVelocitaVento(velocitaVento: float): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthh6v5LXs=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVqirmGQ="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 279,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+getVelocitavento(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthh6v8eJI=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVqit4cw="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 294,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+setQuantitaPioggia(quantitaPioggia: int): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiKv/Aso=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVqiwZQs="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 309,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+getQuantitaPiogia(): int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiKwCHhM=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgVqiyF+M="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 324,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+setTemperatura(temperatura: float): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiKwFB04=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6i10uk="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 339,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+getTemperatura(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiawIW/Q=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6i3yDY="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 354,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+setSogliaVento(sogliaVento: float): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiawL/yI=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6i6rSU="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 369,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+getSogliaVento(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiawOpY0=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6i8Ia4="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 384,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+setSogliaPioggia(sogliaPioggia: int): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiawRJdc=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6i/cwU="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 399,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+getSogliaPioggia(): int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiawUaQg=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6jB6as="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 414,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+setSogliaTemperatura(sogliaTemperatura: float): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiawXhZQ=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6jEH+I="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 429,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+getSogliaTemperatura(): float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiqwaEEE=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6jGqK0="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 444,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+toString(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiqwdTlU=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6jIoU0="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 459,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+codiceZona(id: String): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthiqwgOis=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthX6rvhYc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgV6jL53w="
+											},
+											"font": "Arial;13;0",
+											"left": 205,
+											"top": 474,
+											"width": 584.96826171875,
+											"height": 13,
+											"text": "+stessaZona(centralina: CentralinaMeteo): boolean",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 200,
+									"top": 184,
+									"width": 594.96826171875,
+									"height": 308
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF2EQthX6rwOlQ=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthX6roRIo="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgVKiaRn8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -1.625732421875,
+									"top": -4,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF2EQthYKrxkiw=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthX6roRIo="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgVKiaRn8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": -1.625732421875,
+									"top": -4,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 200,
+							"top": 16,
+							"width": 594.96826171875,
+							"height": 476,
+							"autoResize": true,
+							"nameCompartment": {
+								"$ref": "AAAAAAF2EQthX6rp/Qw="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF2EQthX6rutDU="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF2EQthX6rvhYc="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF2EQthX6rwOlQ="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF2EQthYKrxkiw="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF2EQthYKryJrU=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQthX6rn5Ak="
+							},
+							"model": {
+								"$ref": "AAAAAAF2EQtgYKjOVrs="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF2EQthYKrz5Kg=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKryJrU="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgYKjOVrs="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYKr0diA=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKrz5Kg="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"top": 122,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYKr1Htk=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKrz5Kg="
+											},
+											"font": "Arial;13;1",
+											"left": 25,
+											"top": 143,
+											"width": 131.47900390625,
+											"height": 13,
+											"text": "CentralinaMeteoMare"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYKr2cQs=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKrz5Kg="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"top": 122,
+											"width": 114.13720703125,
+											"height": 13,
+											"text": "(from Meteo)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYKr3V4o=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKrz5Kg="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"top": 122,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 20,
+									"top": 136,
+									"width": 141.47900390625,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF2EQthYKr0diA="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF2EQthYKr1Htk="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF2EQthYKr2cQs="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF2EQthYKr3V4o="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF2EQthYKr4YSg=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKryJrU="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgYKjOVrs="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthjqwoEpI=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKr4YSg="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdakEu3o="
+											},
+											"font": "Arial;13;0",
+											"left": 25,
+											"top": 166,
+											"width": 131.47900390625,
+											"height": 13,
+											"text": "-livelloAcqua: int",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 20,
+									"top": 161,
+									"width": 141.47900390625,
+									"height": 23
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF2EQthYKr5gTA=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKryJrU="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgYKjOVrs="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthjqwrjZk=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKr5gTA="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgYajP3Zo="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 5,
+											"top": 66,
+											"width": 712.13720703125,
+											"height": 13,
+											"text": "«constructor»+CentralinaMeteoMare(id: String, velocitaVento: float, quantitaPioggia: int, temperatura: float)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthjqwubio=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKr5gTA="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgYajUPcE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 5,
+											"top": 81,
+											"width": 712.13720703125,
+											"height": 13,
+											"text": "«constructor»+CentralinaMeteoMare(id: String, velocitaVento: float, quantitaPioggia: int, temperatura: float, livelloAcqua: int)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthjqwxxzw=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKr5gTA="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgYajaFUE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 5,
+											"top": 96,
+											"width": 712.13720703125,
+											"height": 13,
+											"text": "«constructor»+CentralinaMeteoMare()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthjqw0hV8=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKr5gTA="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgYajbLtI="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 5,
+											"top": 111,
+											"width": 712.13720703125,
+											"height": 13,
+											"text": "+toString(): String",
+											"horizontalAlignment": 0
+										}
+									],
+									"visible": false,
+									"font": "Arial;13;0",
+									"top": 61,
+									"width": 722.13720703125,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF2EQthYKr6mEE=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKryJrU="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgYKjOVrs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"top": 61,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF2EQthYKr7CIQ=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKryJrU="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgYKjOVrs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"top": 61,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 20,
+							"top": 136,
+							"width": 141.47900390625,
+							"height": 137,
+							"nameCompartment": {
+								"$ref": "AAAAAAF2EQthYKrz5Kg="
+							},
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAF2EQthYKr4YSg="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF2EQthYKr5gTA="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF2EQthYKr6mEE="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF2EQthYKr7CIQ="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF2EQthYKr8PUk=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQthX6rn5Ak="
+							},
+							"model": {
+								"$ref": "AAAAAAF2EQtgZKjdlKg="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF2EQthYKr9Dns=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKr8PUk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZKjdlKg="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYKr+uhM=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKr9Dns="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 510.689453125,
+											"top": 1194,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYKr/CdI=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKr9Dns="
+											},
+											"font": "Arial;13;1",
+											"left": 445,
+											"top": 679,
+											"width": 169.78271484375,
+											"height": 13,
+											"text": "CentralinaMeteoMonti"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYKsAKlE=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKr9Dns="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 510.689453125,
+											"top": 1194,
+											"width": 114.13720703125,
+											"height": 13,
+											"text": "(from Meteo)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYKsB79w=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKr9Dns="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 510.689453125,
+											"top": 1194,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 440,
+									"top": 672,
+									"width": 179.78271484375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF2EQthYKr+uhM="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF2EQthYKr/CdI="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF2EQthYKsAKlE="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF2EQthYKsB79w="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF2EQthYKsCUuE=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKr8PUk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZKjdlKg="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthj6w8AX4=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKsCUuE="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdakFe2o="
+											},
+											"font": "Arial;13;0",
+											"left": 445,
+											"top": 702,
+											"width": 169.78271484375,
+											"height": 13,
+											"text": "-precipitazioneNeve: int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthj6w/gyM=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYKsCUuE="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdakGfM8="
+											},
+											"font": "Arial;13;0",
+											"left": 445,
+											"top": 717,
+											"width": 169.78271484375,
+											"height": 13,
+											"text": "-livelloNeve: int",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 440,
+									"top": 697,
+									"width": 179.78271484375,
+									"height": 38
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF2EQthYasDigY=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKr8PUk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZKjdlKg="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthkKxCPgU=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasDigY="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgZKje7Tw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 260.3447265625,
+											"top": 602,
+											"width": 846.5361328125,
+											"height": 13,
+											"text": "+CentralinaMeteoMonti(id: String, velocitaVento: float, quantitaPioggia: int, temperatura: float, precipitazioneNeve: int, livelloNeve: int)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthkKxFZE4=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasDigY="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgZajl5tc="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 260.3447265625,
+											"top": 617,
+											"width": 846.5361328125,
+											"height": 13,
+											"text": "+CentralinaMeteoMonti()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthkKxIlWU=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasDigY="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgZajmJh0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 260.3447265625,
+											"top": 632,
+											"width": 846.5361328125,
+											"height": 13,
+											"text": "+toString(): String",
+											"horizontalAlignment": 0
+										}
+									],
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 255.3447265625,
+									"top": 597,
+									"width": 856.5361328125,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF2EQthYasEmoY=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKr8PUk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZKjdlKg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 255.3447265625,
+									"top": 597,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF2EQthYasFnpk=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYKr8PUk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZKjdlKg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 255.3447265625,
+									"top": 597,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 440,
+							"top": 672,
+							"width": 179.78271484375,
+							"height": 78,
+							"stereotypeDisplay": "none",
+							"nameCompartment": {
+								"$ref": "AAAAAAF2EQthYKr9Dns="
+							},
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAF2EQthYKsCUuE="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF2EQthYasDigY="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF2EQthYasEmoY="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF2EQthYasFnpk="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF2EQthYasG/GI=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQthX6rn5Ak="
+							},
+							"model": {
+								"$ref": "AAAAAAF2EQtgZ6joCDs="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF2EQthYasHQDk=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasG/GI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZ6joCDs="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYasIW0I=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasHQDk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 785.6474609375,
+											"top": 1082,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYasJ1Zc=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasHQDk="
+											},
+											"font": "Arial;13;1",
+											"left": 749,
+											"top": 623,
+											"width": 405.86279296875,
+											"height": 13,
+											"text": "ReteMeteo"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYasKgIo=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasHQDk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 785.6474609375,
+											"top": 1082,
+											"width": 114.13720703125,
+											"height": 13,
+											"text": "(from Meteo)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYasLbDg=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasHQDk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 785.6474609375,
+											"top": 1082,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 744,
+									"top": 616,
+									"width": 415.86279296875,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF2EQthYasIW0I="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF2EQthYasJ1Zc="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF2EQthYasKgIo="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF2EQthYasLbDg="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF2EQthYasMIig=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasG/GI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZ6joCDs="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF2EQthkaxQKdg=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasMIig="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgdakHMbU="
+											},
+											"font": "Arial;13;0",
+											"left": 749,
+											"top": 646,
+											"width": 405.86279296875,
+											"height": 13,
+											"text": "~NOME_RETE: String = \"RETE RILEVAMENTO VENETO\" {readOnly}",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 744,
+									"top": 641,
+									"width": 415.86279296875,
+									"height": 23
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF2EQthYasNTn8=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasG/GI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZ6joCDs="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthkqxTo/E=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasNTn8="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgaKjpJg0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 749,
+											"top": 669,
+											"width": 567.62646484375,
+											"height": 13,
+											"text": "«constructor»+ReteMeteo(numeroCentraline: int)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthkqxWec4=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasNTn8="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgaKjro0E="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 749,
+											"top": 684,
+											"width": 567.62646484375,
+											"height": 13,
+											"text": "+setCentralina(pos: int, id: String, velocitaVento: float, quantitaPioggia: int, temperatura: float): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthkqxZ2T4=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasNTn8="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgaKjyowA="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 749,
+											"top": 699,
+											"width": 567.62646484375,
+											"height": 13,
+											"text": "+getCentralina(pos: int): CentralinaMeteo",
+											"horizontalAlignment": 0
+										}
+									],
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 744,
+									"top": 664,
+									"width": 577.62646484375,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF2EQthYasOTRw=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasG/GI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZ6joCDs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 392.82373046875,
+									"top": 541,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF2EQthYasPJ3Q=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasG/GI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgZ6joCDs="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 392.82373046875,
+									"top": 541,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"showShadow": false,
+							"containerChangeable": true,
+							"left": 744,
+							"top": 616,
+							"width": 415.86279296875,
+							"height": 48,
+							"autoResize": true,
+							"nameCompartment": {
+								"$ref": "AAAAAAF2EQthYasHQDk="
+							},
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAF2EQthYasMIig="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF2EQthYasNTn8="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF2EQthYasOTRw="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF2EQthYasPJ3Q="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF2EQthYasQ0eI=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQthX6rn5Ak="
+							},
+							"model": {
+								"$ref": "AAAAAAF2EQtgcqj1JB8="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF2EQthYasREIQ=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasQ0eI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgcqj1JB8="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYasSeH8=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasREIQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 1007.58837890625,
+											"top": 184,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYasTfiQ=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasREIQ="
+											},
+											"font": "Arial;13;1",
+											"left": 845,
+											"top": 119,
+											"width": 89.3369140625,
+											"height": 13,
+											"text": "TestCentralina"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYasUbUg=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasREIQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 1007.58837890625,
+											"top": 184,
+											"width": 114.13720703125,
+											"height": 13,
+											"text": "(from Meteo)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF2EQthYasVgZQ=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasREIQ="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 1007.58837890625,
+											"top": 184,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 840,
+									"top": 112,
+									"width": 99.3369140625,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF2EQthYasSeH8="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF2EQthYasTfiQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF2EQthYasUbUg="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF2EQthYasVgZQ="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF2EQthYasWOxU=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasQ0eI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgcqj1JB8="
+									},
+									"font": "Arial;13;0",
+									"left": 840,
+									"top": 137,
+									"width": 99.3369140625,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF2EQthYasX/Qc=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasQ0eI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgcqj1JB8="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF2EQthlKxh4No=",
+											"_parent": {
+												"$ref": "AAAAAAF2EQthYasX/Qc="
+											},
+											"model": {
+												"$ref": "AAAAAAF2EQtgc6j2tB0="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 540.794189453125,
+											"top": 89,
+											"width": 154.25439453125,
+											"height": 13,
+											"underline": true,
+											"text": "+main(args: String[*]): void",
+											"horizontalAlignment": 0
+										}
+									],
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 503.794189453125,
+									"top": 92,
+									"width": 164.25439453125,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF2EQthYasY8Yk=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasQ0eI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgcqj1JB8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 503.794189453125,
+									"top": 92,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF2EQthYasZlrE=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYasQ0eI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgcqj1JB8="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 503.794189453125,
+									"top": 92,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 840,
+							"top": 112,
+							"width": 99.3369140625,
+							"height": 48,
+							"nameCompartment": {
+								"$ref": "AAAAAAF2EQthYasREIQ="
+							},
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAF2EQthYasWOxU="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF2EQthYasX/Qc="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF2EQthYasY8Yk="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF2EQthYasZlrE="
+							}
+						},
+						{
+							"_type": "UMLGeneralizationView",
+							"_id": "AAAAAAF2EQthYqsam8Q=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQthX6rn5Ak="
+							},
+							"model": {
+								"$ref": "AAAAAAF2EQtgc6j5ZhI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqsbnW0=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsam8Q="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgc6j5ZhI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 93,
+									"top": 40,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsam8Q="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqsc2z8=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsam8Q="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgc6j5ZhI="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 99,
+									"top": 26,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsam8Q="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqsdWzg=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsam8Q="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgc6j5ZhI="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 80,
+									"top": 67,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsam8Q="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF2EQthX6roRIo="
+							},
+							"tail": {
+								"$ref": "AAAAAAF2EQthYKryJrU="
+							},
+							"lineStyle": 3,
+							"points": "89:135;87:60;199:113",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAF2EQthYqsbnW0="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAF2EQthYqsc2z8="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAF2EQthYqsdWzg="
+							}
+						},
+						{
+							"_type": "UMLGeneralizationView",
+							"_id": "AAAAAAF2EQthYqseayI=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQthX6rn5Ak="
+							},
+							"model": {
+								"$ref": "AAAAAAF2EQtgdKj6tJ4="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqsfgEU=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqseayI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdKj6tJ4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 504,
+									"top": 576,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqseayI="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqsg7jQ=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqseayI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdKj6tJ4="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 489,
+									"top": 577,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqseayI="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqshAGg=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqseayI="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdKj6tJ4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 533,
+									"top": 573,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqseayI="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF2EQthX6roRIo="
+							},
+							"tail": {
+								"$ref": "AAAAAAF2EQthYKr8PUk="
+							},
+							"lineStyle": 3,
+							"points": "526:671;513:492",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAF2EQthYqsfgEU="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAF2EQthYqsg7jQ="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAF2EQthYqshAGg="
+							}
+						},
+						{
+							"_type": "UMLAssociationView",
+							"_id": "AAAAAAF2EQthYqsiCWk=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQthX6rn5Ak="
+							},
+							"model": {
+								"$ref": "AAAAAAF2EQtgdakIf48="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqsjARA=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakIf48="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 840,
+									"top": 558,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqskFCQ=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakIf48="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 830,
+									"top": 569,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqslfjc=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakIf48="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 859,
+									"top": 535,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthYqsmPxU=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakJMew="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 893,
+									"top": 603,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthY6snw4Y=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakJMew="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 883,
+									"top": 612,
+									"height": 13,
+									"alpha": 0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthY6sokcQ=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakJMew="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 914,
+									"top": 585,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthY6spDPM=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakKeF4="
+									},
+									"font": "Arial;13;0",
+									"left": 758,
+									"top": 514,
+									"width": 60.6962890625,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"text": "-centraline"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthY6sqPeQ=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakKeF4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 781,
+									"top": 525,
+									"height": 13,
+									"alpha": -0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF2EQthY6srbLQ=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakKeF4="
+									},
+									"font": "Arial;13;0",
+									"left": 792,
+									"top": 490,
+									"width": 21.68359375,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"text": "0..*"
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAF2EQthY6ss7Mo=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakJMew="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAF2EQthY6st5fA=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQthYqsiCWk="
+									},
+									"model": {
+										"$ref": "AAAAAAF2EQtgdakKeF4="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF2EQthX6roRIo="
+							},
+							"tail": {
+								"$ref": "AAAAAAF2EQthYasG/GI="
+							},
+							"lineStyle": 3,
+							"points": "923:615;778:492",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAF2EQthYqsjARA="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAF2EQthYqskFCQ="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAF2EQthYqslfjc="
+							},
+							"tailRoleNameLabel": {
+								"$ref": "AAAAAAF2EQthYqsmPxU="
+							},
+							"tailPropertyLabel": {
+								"$ref": "AAAAAAF2EQthY6snw4Y="
+							},
+							"tailMultiplicityLabel": {
+								"$ref": "AAAAAAF2EQthY6sokcQ="
+							},
+							"headRoleNameLabel": {
+								"$ref": "AAAAAAF2EQthY6spDPM="
+							},
+							"headPropertyLabel": {
+								"$ref": "AAAAAAF2EQthY6sqPeQ="
+							},
+							"headMultiplicityLabel": {
+								"$ref": "AAAAAAF2EQthY6srbLQ="
+							},
+							"tailQualifiersCompartment": {
+								"$ref": "AAAAAAF2EQthY6ss7Mo="
+							},
+							"headQualifiersCompartment": {
+								"$ref": "AAAAAAF2EQthY6st5fA="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF2EQtgVKiaRn8=",
+					"_parent": {
+						"$ref": "AAAAAAF2EQtgJ6iZ2zE="
+					},
+					"name": "CentralinaMeteo",
+					"documentation": "Centralina meteo\n@author 4A ITI\n@version 1.0",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdKj7S9g=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "ENTE_PROPRIETARIO",
+							"visibility": "protected",
+							"isLeaf": true,
+							"type": "String",
+							"isReadOnly": true,
+							"defaultValue": "\"ARPANP - Newton-Pertini\""
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdKj8YFI=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "numeroCentraline",
+							"visibility": "protected",
+							"isStatic": true,
+							"type": "int",
+							"defaultValue": "0"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdKj90Ks=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "id",
+							"visibility": "protected",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdKj+4aw=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "velocitaVento",
+							"visibility": "protected",
+							"type": "float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdKj/wg0=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "quantitaPioggia",
+							"visibility": "protected",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdKkAYOc=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "temperatura",
+							"visibility": "protected",
+							"type": "float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdKkB7I4=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "sogliaVento",
+							"visibility": "protected",
+							"type": "float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdKkC6hs=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "sogliaPioggia",
+							"visibility": "protected",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdakD2fE=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "sogliaTemperatura",
+							"visibility": "protected",
+							"type": "float"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVaibsrE=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "CentralinaMeteo",
+							"stereotype": "constructor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVaicM60=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVaibsrE="
+									},
+									"name": "id",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVaidHmA=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVaibsrE="
+									},
+									"name": "velocitaVento",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqieGs8=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVaibsrE="
+									},
+									"name": "quantitaPioggia",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqif04Q=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVaibsrE="
+									},
+									"name": "temperatura",
+									"type": "float"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVqigu6I=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "CentralinaMeteo",
+							"stereotype": "constructor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqih1ts=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqigu6I="
+									},
+									"name": "centralinaMeteo",
+									"type": {
+										"$ref": "AAAAAAF2EQtgVaibsrE="
+									}
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVqii6JQ=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "CentralinaMeteo",
+							"stereotype": "constructor"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVqijY6o=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "setId",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqikJBo=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqijY6o="
+									},
+									"name": "id",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqil5ZA=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqijY6o="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVqimpHQ=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "getId",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqinkO0=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqimpHQ="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVqioPyY=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "setVelocitaVento",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqipBj0=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqioPyY="
+									},
+									"name": "velocitaVento",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqiqJBM=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqioPyY="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVqirmGQ=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "getVelocitavento",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqisMcU=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqirmGQ="
+									},
+									"type": "float",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVqit4cw=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "setQuantitaPioggia",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqiu/7Y=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqit4cw="
+									},
+									"name": "quantitaPioggia",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqivmxM=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqit4cw="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVqiwZQs=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "getQuantitaPiogia",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgVqix1Ns=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqiwZQs="
+									},
+									"type": "int",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgVqiyF+M=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "setTemperatura",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6izUbw=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqiyF+M="
+									},
+									"name": "temperatura",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6i0cP4=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgVqiyF+M="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6i10uk=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "getTemperatura",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6i2HvI=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6i10uk="
+									},
+									"type": "float",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6i3yDY=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "setSogliaVento",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6i49Q0=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6i3yDY="
+									},
+									"name": "sogliaVento",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6i5Pn8=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6i3yDY="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6i6rSU=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "getSogliaVento",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6i7Gfg=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6i6rSU="
+									},
+									"type": "float",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6i8Ia4=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "setSogliaPioggia",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6i90MA=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6i8Ia4="
+									},
+									"name": "sogliaPioggia",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6i+pRY=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6i8Ia4="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6i/cwU=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "getSogliaPioggia",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6jAMTc=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6i/cwU="
+									},
+									"type": "int",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6jB6as=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "setSogliaTemperatura",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6jCr+s=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6jB6as="
+									},
+									"name": "sogliaTemperatura",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6jDP5M=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6jB6as="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6jEH+I=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "getSogliaTemperatura",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6jF+7A=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6jEH+I="
+									},
+									"type": "float",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6jGqK0=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "toString",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6jHKec=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6jGqK0="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6jIoU0=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "codiceZona",
+							"documentation": "Estrae il codice zona dall'id\ndi un altra centralina\n@param id id centralina da cui estrarre il codice zona\n@return String Codice della zona",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6jJJgI=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6jIoU0="
+									},
+									"name": "id",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6jKBh4=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6jIoU0="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgV6jL53w=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							},
+							"name": "stessaZona",
+							"documentation": "Confronta il codice della zona con il codice della zona\ndi un altra centralina\n@param centralina Centralina con la quale si desidera eseguire il confronto della zona\n@return boolean true se il codice corrisponde, false altrimenti",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6jMt84=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6jL53w="
+									},
+									"name": "centralina",
+									"type": {
+										"$ref": "AAAAAAF2EQtgVaibsrE="
+									}
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgV6jNTZc=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgV6jL53w="
+									},
+									"type": "boolean",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF2EQtgcqj1JB8=",
+					"_parent": {
+						"$ref": "AAAAAAF2EQtgJ6iZ2zE="
+					},
+					"name": "TestCentralina",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgc6j2tB0=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgcqj1JB8="
+							},
+							"name": "main",
+							"isStatic": true,
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgc6j3AgE=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgc6j2tB0="
+									},
+									"name": "args",
+									"type": "String",
+									"multiplicity": "*"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgc6j4Zqo=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgc6j2tB0="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF2EQtgZ6joCDs=",
+					"_parent": {
+						"$ref": "AAAAAAF2EQtgJ6iZ2zE="
+					},
+					"name": "ReteMeteo",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAF2EQtgdakIf48=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZ6joCDs="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF2EQtgdakJMew=",
+								"_parent": {
+									"$ref": "AAAAAAF2EQtgdakIf48="
+								},
+								"reference": {
+									"$ref": "AAAAAAF2EQtgZ6joCDs="
+								},
+								"visibility": "package",
+								"navigable": false,
+								"aggregation": "shared"
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAF2EQtgdakKeF4=",
+								"_parent": {
+									"$ref": "AAAAAAF2EQtgdakIf48="
+								},
+								"name": "centraline",
+								"reference": {
+									"$ref": "AAAAAAF2EQtgVKiaRn8="
+								},
+								"visibility": "private",
+								"multiplicity": "0..*"
+							}
+						}
+					],
+					"documentation": "Rete di rilevamento meteo\n@author 4A ITI\n@version 1.0",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdakHMbU=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZ6joCDs="
+							},
+							"name": "NOME_RETE",
+							"visibility": "package",
+							"isLeaf": true,
+							"type": "String",
+							"isReadOnly": true,
+							"defaultValue": "\"RETE RILEVAMENTO VENETO\""
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgaKjpJg0=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZ6joCDs="
+							},
+							"name": "ReteMeteo",
+							"documentation": "Costruttore dell'array delle centraline: si limita solo alla allocazione (new)\ndella memoria necessaria per memorizzare i valori di ogni oggetto\n(di tipo CentralinaMeteo) dell'array\n@param numeroCentraline numero di elementi dell'array",
+							"stereotype": "constructor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgaKjq/RU=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgaKjpJg0="
+									},
+									"name": "numeroCentraline",
+									"type": "int"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgaKjro0E=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZ6joCDs="
+							},
+							"name": "setCentralina",
+							"documentation": "Costruttore dell'array delle centraline: si limita solo alla allocazione (new)\ndella memoria necessaria per memorizzare i valori di ogni oggetto\n(di tipo CentralinaMeteo) dell'array\n@param numeroCentraline numero di elementi dell'array\n@param String id Identificativo\n@param float velocitaVento Velocità del vento\n@param int quantitaPioggia Quantità di pioggia caduta\n@param float temperatura temperatura rilevata",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgaKjsT6M=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgaKjro0E="
+									},
+									"name": "pos",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgaKjtGhk=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgaKjro0E="
+									},
+									"name": "id",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgaKjubpg=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgaKjro0E="
+									},
+									"name": "velocitaVento",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgaKjv+rc=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgaKjro0E="
+									},
+									"name": "quantitaPioggia",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgaKjwsKU=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgaKjro0E="
+									},
+									"name": "temperatura",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgaKjxFRg=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgaKjro0E="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgaKjyowA=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZ6joCDs="
+							},
+							"name": "getCentralina",
+							"documentation": "Costruttore dell'array delle centraline: si limita solo alla allocazione (new)\ndella memoria necessaria per memorizzare i valori di ogni oggetto\n(di tipo CentralinaMeteo) dell'array\n@param pos posizione (indice) nell'array della centralina",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgaKjztK8=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgaKjyowA="
+									},
+									"name": "pos",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgaKj0qd0=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgaKjyowA="
+									},
+									"type": {
+										"$ref": "AAAAAAF2EQtgVKiaRn8="
+									},
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF2EQtgZKjdlKg=",
+					"_parent": {
+						"$ref": "AAAAAAF2EQtgJ6iZ2zE="
+					},
+					"name": "CentralinaMeteoMonti",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAF2EQtgdKj6tJ4=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZKjdlKg="
+							},
+							"source": {
+								"$ref": "AAAAAAF2EQtgZKjdlKg="
+							},
+							"target": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							}
+						}
+					],
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdakFe2o=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZKjdlKg="
+							},
+							"name": "precipitazioneNeve",
+							"visibility": "private",
+							"type": "int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdakGfM8=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZKjdlKg="
+							},
+							"name": "livelloNeve",
+							"visibility": "private",
+							"type": "int"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgZKje7Tw=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZKjdlKg="
+							},
+							"name": "CentralinaMeteoMonti",
+							"stereotype": "constructor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgZajfxms=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgZKje7Tw="
+									},
+									"name": "id",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgZajgDv4=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgZKje7Tw="
+									},
+									"name": "velocitaVento",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgZajhVBQ=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgZKje7Tw="
+									},
+									"name": "quantitaPioggia",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgZajikyM=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgZKje7Tw="
+									},
+									"name": "temperatura",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgZajjqd8=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgZKje7Tw="
+									},
+									"name": "precipitazioneNeve",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgZajkVQM=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgZKje7Tw="
+									},
+									"name": "livelloNeve",
+									"type": "int"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgZajl5tc=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZKjdlKg="
+							},
+							"name": "CentralinaMeteoMonti",
+							"stereotype": "constructor"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgZajmJh0=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgZKjdlKg="
+							},
+							"name": "toString",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgZajn95o=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgZajmJh0="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF2EQtgYKjOVrs=",
+					"_parent": {
+						"$ref": "AAAAAAF2EQtgJ6iZ2zE="
+					},
+					"name": "CentralinaMeteoMare",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAF2EQtgc6j5ZhI=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgYKjOVrs="
+							},
+							"source": {
+								"$ref": "AAAAAAF2EQtgYKjOVrs="
+							},
+							"target": {
+								"$ref": "AAAAAAF2EQtgVKiaRn8="
+							}
+						}
+					],
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF2EQtgdakEu3o=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgYKjOVrs="
+							},
+							"name": "livelloAcqua",
+							"visibility": "private",
+							"type": "int"
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgYajP3Zo=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgYKjOVrs="
+							},
+							"name": "CentralinaMeteoMare",
+							"stereotype": "constructor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajQQVs=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajP3Zo="
+									},
+									"name": "id",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajR+xw=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajP3Zo="
+									},
+									"name": "velocitaVento",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajSHCk=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajP3Zo="
+									},
+									"name": "quantitaPioggia",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajTEa4=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajP3Zo="
+									},
+									"name": "temperatura",
+									"type": "float"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgYajUPcE=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgYKjOVrs="
+							},
+							"name": "CentralinaMeteoMare",
+							"stereotype": "constructor",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajVqv4=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajUPcE="
+									},
+									"name": "id",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajWxjs=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajUPcE="
+									},
+									"name": "velocitaVento",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajXn+Y=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajUPcE="
+									},
+									"name": "quantitaPioggia",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajYefk=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajUPcE="
+									},
+									"name": "temperatura",
+									"type": "float"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajZD5U=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajUPcE="
+									},
+									"name": "livelloAcqua",
+									"type": "int"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgYajaFUE=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgYKjOVrs="
+							},
+							"name": "CentralinaMeteoMare",
+							"stereotype": "constructor"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF2EQtgYajbLtI=",
+							"_parent": {
+								"$ref": "AAAAAAF2EQtgYKjOVrs="
+							},
+							"name": "toString",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF2EQtgYajcn7g=",
+									"_parent": {
+										"$ref": "AAAAAAF2EQtgYajbLtI="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
