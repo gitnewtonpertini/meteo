@@ -5,16 +5,13 @@
 // Eseguire da riga di comando con java -cp ".\" TestCentralina
 public class CentralinaMeteoMare extends CentralinaMeteo {
 	
-	private int livelloAcqua;
+	private int sogliaAcqua;
 	
-	public CentralinaMeteoMare(String id, float velocitaVento, int quantitaPioggia, float temperatura) {
+	public CentralinaMeteoMare(String id, float sogliaVento, int sogliaPioggia,
+			float sogliaTemperatura, int sogliaAcqua) {
 		// la parola chiave "super" è un riferimento alla classe madre
-		super(id, velocitaVento, quantitaPioggia, temperatura);
-	}
-	
-	public CentralinaMeteoMare(String id, float velocitaVento, int quantitaPioggia, float temperatura, int livelloAcqua) {
-		super(id, velocitaVento, quantitaPioggia, temperatura);
-		this.livelloAcqua = livelloAcqua;
+		super(id, sogliaVento, sogliaPioggia, sogliaTemperatura);
+		this.sogliaAcqua = sogliaAcqua;
 	}
 
 	// TODO: creare il costruttore di copia
@@ -22,15 +19,12 @@ public class CentralinaMeteoMare extends CentralinaMeteo {
 	public CentralinaMeteoMare() {
 		super();
 	}
-	
+
+	@Override
 	public String toString() {
-		return "Centralina: " + id + " (" + super.numeroCentraline + ")"
-			+ "\n\rquantita\' pioggia " + quantitaPioggia
-			+ "\n\rvelocita\' vento " + velocitaVento
-			+ "\n\rtemperatura " + temperatura
-			+ "\n\rlivello acqua " + livelloAcqua
-			+ "\n-------------------------------\n";
+		return "CentralinaMeteoMare " + super.numeroCentraline + "[sogliaAcqua=" + sogliaAcqua + ", toString()=" + super.toString() + "]";
 	}
+
 	
 	
 	

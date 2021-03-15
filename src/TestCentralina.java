@@ -38,20 +38,20 @@ public class TestCentralina {
 		// aggiunto alcun attributo.
 		System.out.println("\n--- STAMPA CENTRALINA CLASSE MeteoMare");
 		CentralinaMeteoMare centVenezia_02;
-		centVenezia_02 = new CentralinaMeteoMare("CENT_VNZ_02", 20, 15, 30);
+		centVenezia_02 = new CentralinaMeteoMare("CENT_VNZ_02", 20, 15, 30, 50);
 		System.out.println(centVenezia_02.toString());
 		
 		// Creo un oggetto della classe figlia attribuendo un valore anche
 		// all'attributo dichiarato (livelloAcqua) nella classe figlia 
 		System.out.println("\n--- STAMPA CENTRALINA CLASSE MeteoMonti");
 		CentralinaMeteoMonti centArabba_01;
-		centArabba_01 = new CentralinaMeteoMonti("CENT_ARB_01", 30, 23, 32, 10, 70);
+		centArabba_01 = new CentralinaMeteoMonti("CENT_ARB_01", 25.5f, 13, 40.0f, 20);
 		System.out.println(centArabba_01.toString());
 
 		// Verifica codice zona di due centraline
 		System.out.println("\n--- CODICE ZONA");
 		System.out.println(centArabba_01.stessaZona(centVenezia_02) ? "Stessa zona" : "Zone diverse");
-		CentralinaMeteoMonti centArabba_02 = new CentralinaMeteoMonti("CENT_ARB_02", 20, 13, 22, 20, 90);
+		CentralinaMeteoMonti centArabba_02 = new CentralinaMeteoMonti("CENT_ARB_02", 25.0f, 13, 30.0f, 20);
 		System.out.println(centArabba_01.stessaZona(centArabba_02) ? "Stessa zona" : "Zone diverse");
 		
 		// Creazione dell'array delle centraline
